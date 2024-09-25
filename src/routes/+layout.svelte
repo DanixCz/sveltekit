@@ -1,6 +1,7 @@
 <script>
     import{fly}from'svelte/transition';
     import{page}from'$app/stores';
+    import Header from '$lib/components/Header.svelte';
 
     const{children} = $props();
 
@@ -11,12 +12,9 @@
         document.body.classList.remove('page-transitioning')
     }
 </script>
-<header>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-    </nav>
-</header>
+
+<Header />
+
 {#key $page.url}
 <main
 in:fly={{ x: -200, duration: 300, delay: 300 }}
