@@ -13,6 +13,7 @@
 
 <style>
 
+
 nav{
     display: flex;
     margin-right: 28px;
@@ -22,6 +23,7 @@ nav{
 
 header{
     display: flex;
+    position: sticky;
     background-color: black;
     color: white;
     justify-content: right;
@@ -38,9 +40,16 @@ a{
     border-radius: 5px;
     border: 2px solid rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 4px rgb(0, 0, 0);
     box-shadow: 0px 0px 4px white;
     padding-left: 5px;
     padding-right: 5px;
+}
+a:hover{
+    box-shadow: 0px 0px 4px black;
+    border: 2px solid rgb(0, 0, 0);
+    text-shadow: 0px 0px 2px white;
+    background-color: black;
+    color: white;
+    transition: 0.1s;
 }
 </style>

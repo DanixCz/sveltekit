@@ -1,4 +1,3 @@
+<h1>Hello svelte</h1>
 
-<h1>About page svelte</h1>
-    <a href="/">Home</a>
-
+<a href="/">About</a>
