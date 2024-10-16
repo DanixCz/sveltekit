@@ -24,31 +24,35 @@ nav{
 header{
     display: flex;
     position: sticky;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.61);
     color: white;
     justify-content: right;
     width: 100%;
-    height: 60px;
+    height: 100px;
+    backdrop-filter: blur(10px);
     align-items: center;
-
+    position: sticky;
+    margin: 0;
+    top: 0;
 }
+
 a{
-    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px black;
+    text-shadow: 0px 0px 1px black;
+    color: white;
     text-decoration: none;  
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     border-radius: 5px;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 4px white;
+    border: 4px solid rgb(221, 37, 37);
+    background-color: rgb(221, 37, 37);
     padding-left: 5px;
     padding-right: 5px;
 }
+
 a:hover{
-    box-shadow: 0px 0px 4px black;
-    border: 2px solid rgb(0, 0, 0);
-    text-shadow: 0px 0px 2px white;
-    background-color: black;
+    border: 4px solid rgb(69, 165, 243);
+    background-color: rgb(69, 165, 243);
     color: white;
     transition: 0.1s;
 }
