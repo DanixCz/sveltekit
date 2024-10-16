@@ -1,10 +1,13 @@
 <section class="hero">
+    <div>
+        <img src=https://www.farnostkralupy.cz/nockostelu/wp-content/uploads/sites/2/2021/03/Kralupy-kostel-oltar-1024x601.jpg alt="">
+    </div>
 
     <img src=https://cdn.myshoptet.com/usr/www.zuty.cz/user/shop/big/16550-3_malovani-podle-cisel-jezis-kristus.png?65006088 alt="">
 
-    <h1>ježíš kristus</h1>
+    <h1>Ježíš Kristus</h1>
 
-    <p>Pojďte stavět vaší budoucnost u nás na škole, kde propojujeme praxi se vzděláváním</p>
+    <p>Pojďte stavět vaší budoucnost</p>
 
     <div class="hero-buttons">
 
@@ -38,6 +41,9 @@
     .hero-buttons {
         display: flex; /* Použití Flexboxu pro uspořádání tlačítek. */
         gap: 36px; /* Mezera 36px mezi tlačítky. */
+    }
+    .hero p {
+        padding-bottom: 30px;
     }
 
     .hero-buttons a {
